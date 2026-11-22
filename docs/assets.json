@@ -1,0 +1,19 @@
+[
+ {"path":"/typo3conf/ext/theme/Resources/Public/Images/logo.svg","subject":"Logo, on light","res":"vector","rating":"good","treatment":"use as-is; fix alt text (currently 'Frano Steindesign')"},
+ {"path":"/typo3conf/ext/theme/Resources/Public/Images/logo-invert.svg","subject":"Logo, on dark","res":"vector","rating":"good","treatment":"use as-is"},
+ {"path":"/typo3conf/ext/theme/Resources/Public/Images/only-x.svg","subject":"X brand mark","res":"vector","rating":"good","treatment":"favicon / graphic device"},
+ {"path":"/fileadmin/user_upload/header-img-t.png","subject":"Corrugated tube heat exchanger coil (cutout, X watermark bg)","res":"1400x934","rating":"weak","treatment":"remove watermark bg, place on paper with soft shadow; product hero"},
+ {"path":"/fileadmin/content/images/heat-exchanger.jpg","subject":"Heat exchanger coil, X watermark","res":"1595x1063","rating":"weak","treatment":"cut out onto paper; product card 4:3"},
+ {"path":"/fileadmin/content/images/bild3.jpg","subject":"Coil + fittings, X watermark","res":"1401x934","rating":"weak","treatment":"cut out onto paper or ink→accent duotone tile"},
+ {"path":"/fileadmin/content/images/fittingsnew.jpg","subject":"Fittings, X watermark","res":"1595x1063","rating":"weak","treatment":"cut out onto paper; fittings card"},
+ {"path":"/fileadmin/content/images/h-fittings.jpg","subject":"Threaded fittings on white","res":"1401x934","rating":"good","treatment":"place on paper; fittings card"},
+ {"path":"/fileadmin/content/images/welding.jpg","subject":"Automated welding, close-up","res":"1401x934","rating":"good","treatment":"unified grade; hero candidate / manufacture step"},
+ {"path":"/fileadmin/content/images/lab.jpg","subject":"Testing lab","res":"1401x934","rating":"good","treatment":"unified grade; quality section"},
+ {"path":"/fileadmin/content/images/tube_packaging.jpg","subject":"Packed tube coils on pallets","res":"1595x1063","rating":"good","treatment":"unified grade; logistics / stock tile"},
+ {"path":"/fileadmin/content/Ningbo_Produktion/headquarter_overview.jpeg","subject":"Production building, Ningbo","res":"1920x715","rating":"good","treatment":"unified grade; About 'Production site' only, NOT labelled as UK HQ"},
+ {"path":"/fileadmin/content/images/longon.jpg","subject":"Generic London street (Big Ben), not their office","res":"800x450","rating":"unusable","treatment":"low-res, generic; drop or use only as clearly generic mood; never as 'our HQ'"},
+ {"path":"/fileadmin/content/zertifikate/ISO_9001-2015.svg","subject":"ISO 9001:2015 mark","res":"vector","rating":"good","treatment":"greyscale in trust strip"},
+ {"path":"/fileadmin/content/zertifikate/ISO-14001-logo.png","subject":"ISO 14001 mark","res":"500x535","rating":"good","treatment":"greyscale in trust strip"},
+ {"path":"/fileadmin/content/zertifikate/ISO-45001-logo.png","subject":"ISO 45001 mark","res":"500x523","rating":"good","treatment":"greyscale in trust strip"},
+ {"path":"/fileadmin/content/pdf/flexcisst-catalog.pdf","subject":"Product catalogue","res":"4.3 MB","rating":"good","treatment":"ungated datasheet download"}
+]

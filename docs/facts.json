@@ -1,0 +1,60 @@
+{
+  "company": {"name":"Flexcisst Technology UK Ltd","tagline":"Your specialist for heat exchanger tubes!","source":"https://www.flexcisst.co.uk/"},
+  "stats": [
+    {"value":"20+","label":"years operating worldwide","source":"https://www.flexcisst.co.uk/"},
+    {"value":"250","label":"team members","source":"https://www.flexcisst.co.uk/"},
+    {"value":"USD 35m","label":"annual turnover","source":"https://www.flexcisst.co.uk/ (body)","conflict":"meta description says USD 30m","status":"CLIENT TO CONFIRM"},
+    {"value":"100%","label":"corrugated tubes helium-tested","source":"https://www.flexcisst.co.uk/product"}
+  ],
+  "products": [
+    {"name":"Heat exchanger based on corrugated tubes","desc":"Flexible solutions for all heating units; various stainless steel grades and dimensions.","source":"https://www.flexcisst.co.uk/product",
+     "materials":["304","304L","316L","321"],"workingPressure":"up to 21 bar",
+     "specTable":[
+      {"DN":12,"IDxOD":"12 x 16","area":"0.0614 m²/m","wall":"0.15, 0.2, 0.25, 0.3"},
+      {"DN":16,"IDxOD":"16 x 20","area":"0.0752 m²/m","wall":"0.15, 0.2, 0.25, 0.3"},
+      {"DN":20,"IDxOD":"20 x 25","area":"0.11 m²/m","wall":"0.15, 0.2, 0.25, 0.3"},
+      {"DN":25,"IDxOD":"25 x 32","area":"0.125 m²/m","wall":"0.2, 0.25, 0.3"},
+      {"DN":32,"IDxOD":"33 x 40","area":"0.19 m²/m","wall":"0.2, 0.25, 0.3, 0.35"},
+      {"DN":40,"IDxOD":"40 x 50","area":"0.238 m²/m","wall":"0.2, 0.25, 0.3, 0.35, 0.4"},
+      {"DN":50,"IDxOD":"50 x 60","area":"0.286 m²/m","wall":"0.2, 0.25, 0.3, 0.35, 0.4"},
+      {"DN":65,"IDxOD":"65 x 82","area":"0.57 m²/m","wall":"0.3, 0.35, 0.4, 0.5"},
+      {"DN":80,"IDxOD":"80 x 96","area":"0.6 m²/m","wall":"0.3, 0.35, 0.4, 0.5"},
+      {"DN":100,"IDxOD":"100 x 122","area":"0.91 m²/m","wall":"0.3, 0.35, 0.4, 0.5"}]},
+    {"name":"Coils","desc":"Customised pitch profiles and thickness for heat pumps & solar.","source":"https://www.flexcisst.co.uk/product"},
+    {"name":"Custom fittings / connecting parts","desc":"Made to customer requirements and specifications; precision, durability, perfect fit; high-precision manufacturing.","source":"https://www.flexcisst.co.uk/ , /product"}
+  ],
+  "sectors": [
+    {"name":"Boiler production","source":"https://www.flexcisst.co.uk/"},
+    {"name":"Hot water cylinder production","source":"https://www.flexcisst.co.uk/"},
+    {"name":"Heat pumps & solar (coils)","source":"https://www.flexcisst.co.uk/product"}
+  ],
+  "capabilities": [
+    {"text":"State-of-the-art automated precision machinery","source":"https://www.flexcisst.co.uk/product"},
+    {"text":"Strictest testing; 100% helium-tested","source":"https://www.flexcisst.co.uk/product"},
+    {"text":"Meticulous quotation and order processing; customised solutions","source":"https://www.flexcisst.co.uk/"}
+  ],
+  "advantages": [
+    {"title":"Technical expertise","text":"Comprehensive knowledge and decades of experience in heat exchanger technology."},
+    {"title":"Technology openness","text":"Different steel grades and customer-specific production as a matter of course."},
+    {"title":"100% customer focus","text":"Customers take centre stage; we take time for you."},
+    {"title":"Focus on one product","text":"Expertise lies in manufacturing corrugated tube-based heat exchangers."},
+    {"title":"High quality","text":"Highest quality standards; carefully tested."},
+    {"title":"Customised logistics chain","text":"Deliver large quantities and can stock them for you."}
+  ],
+  "advantagesSource":"https://www.flexcisst.co.uk/advantages",
+  "accreditations": [
+    {"name":"ISO 9001:2015","asset":"/fileadmin/content/zertifikate/ISO_9001-2015.svg","source":"https://www.flexcisst.co.uk/"},
+    {"name":"ISO 14001","asset":"/fileadmin/content/zertifikate/ISO-14001-logo.png","source":"https://www.flexcisst.co.uk/"},
+    {"name":"ISO 45001","asset":"/fileadmin/content/zertifikate/ISO-45001-logo.png","source":"https://www.flexcisst.co.uk/"}
+  ],
+  "customers": [], "testimonials": [], "caseStudies": [],
+  "contact": {
+    "address":"54 Welbeck Street, London W1G 9XS","warehouse":"England (location not stated)",
+    "person":"Jonathan Chew, Sales Director UK","phone":"+44 7777 137231","phoneAlt":"+44 0795 4794 561 (header, CLIENT TO CONFIRM)",
+    "email":"jon.chew@flexcisst.co.uk",
+    "productionSite":"Ningbo HongWu Pipe Industry Co., Ltd., 1999 Xiaolin Road, Cixi, Zhejiang 315321, China (www.hongwu.com.cn)",
+    "companyNumber":null,"vat":null,"source":"https://www.flexcisst.co.uk/contact"
+  },
+  "downloads": [{"title":"Heat exchangers based on corrugated pipes (catalogue)","file":"/fileadmin/content/pdf/flexcisst-catalog.pdf","size":"4.3 MB","source":"https://www.flexcisst.co.uk/downloads"}],
+  "brand": {"accent":"#FF7F00","source":"logo-invert.svg fills #fff + #ff7f00"}
+}

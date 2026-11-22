@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "company": "Flexcisst Technology UK Ltd",
+    "tagline": "Heat exchanger tubes and fittings.",
+    "utilityBar": "Heat exchanger tubes · Custom fittings · ISO 9001 / 14001 / 45001",
+    "linkedin": "https://www.linkedin.com/company/flexcisst-technology-uk-limited/posts/",
+    "nav": [
+      { "label": "Home", "href": "/" },
+      { "label": "Products", "href": "/product" },
+      { "label": "Advantages", "href": "/advantages" },
+      { "label": "Downloads", "href": "/downloads" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "headerCta": { "label": "Request a quote", "href": "/contact#quote" },
+    "footer": {
+      "hq": ["Flexcisst Technology UK Ltd", "54 Welbeck Street", "London W1G 9XS"],
+      "enquiries": [{ "label": "Contact page", "href": "/contact" }, { "label": "Request a quote", "href": "/contact#quote" }, { "label": "LinkedIn", "href": "https://www.linkedin.com/company/flexcisst-technology-uk-limited/posts/", "external": true }],
+      "production": ["Ningbo HongWu Pipe Industry Co., Ltd.", "1999 Xiaolin Road, Cixi", "Zhejiang 315321, China"],
+      "legal": "© {year} Flexcisst Technology UK Ltd · Company no. [[CLIENT TO CONFIRM]] · VAT [[CLIENT TO CONFIRM]]",
+      "legalLinks": [{ "label": "Imprint", "href": "/imprint" }, { "label": "Data protection", "href": "/data-protection" }]
+    },
+    "cta": { "title": "Request a quotation", "text": "Send the tube size, grade and quantity, or attach a drawing.", "button": { "label": "Request a quote", "href": "/contact#quote" } },
+    "certifications": [
+      { "title": "ISO 9001:2015", "scope": "Quality management", "image": "/brand/iso-9001.png" },
+      { "title": "ISO 14001", "scope": "Environmental management", "image": "/brand/iso-14001.png" },
+      { "title": "ISO 45001", "scope": "Occupational health & safety", "image": "/brand/iso-45001.png" }
+    ]
+  },
+
+  "home": {
+    "hero": {
+      "code": "00", "label": "Heat exchanger tubes",
+      "title": "Corrugated tube heat exchangers for boilers and cylinders",
+      "intro": "Stainless steel corrugated tubes from DN 12 to DN 100, plus coils and fittings made to your drawings. All tubes are 100% helium leak tested.",
+      "primary": { "label": "Request a quote", "href": "/contact#quote" },
+      "secondary": { "label": "View specifications", "href": "/product#specifications" },
+      "keySpecs": [
+        { "label": "Nominal size", "value": "DN 12–100" },
+        { "label": "Grades", "value": "4 grades", "mobileValue": "304 · 304L · 316L · 321" },
+        { "label": "Working pressure", "value": "≤ 21 bar" },
+        { "label": "Leak test", "value": "100% helium" }
+      ],
+      "image": "/images/hero-section.jpg",
+      "callouts": [
+        { "label": "Corrugated tube", "value": "DN 12–100" },
+        { "label": "Wall", "value": "0.15–0.50 mm" },
+        { "label": "Leak test", "value": "100% helium" }
+      ],
+      "caption": "Fig. 1: Corrugated tube heat exchanger, section view", "ref": "REF 00.1"
+    },
+    "trustBar": { "label": "Certified management systems", "text": "ISO 9001:2015 · ISO 14001 · ISO 45001" },
+    "keyFigures": {
+      "code": "01", "label": "Company", "title": "Over 20 years in heat exchanger tubes",
+      "intro": "Flexcisst Technology UK Ltd supplies corrugated tube heat exchangers to boiler and hot water cylinder manufacturers worldwide.",
+      "stats": [
+        { "value": "20+", "label": "Years operating worldwide" },
+        { "value": "250", "label": "People in the team" },
+        { "value": "DN 12–100", "label": "Ten nominal sizes" },
+        { "value": "100%", "label": "Tubes helium-tested" }
+      ]
+    },
+    "applications": {
+      "code": "02", "label": "Applications", "title": "Boilers, cylinders, heat pumps and solar",
+      "intro": "Supplied as tubes, coils or complete systems.",
+      "items": [
+        { "code": "A1", "title": "Boiler production", "text": "Heat exchanger tubes and complete system supply for boiler manufacturers." },
+        { "code": "A2", "title": "Hot water cylinders", "text": "Corrugated tube coils for hot water cylinder production." },
+        { "code": "A3", "title": "Heat pumps & solar", "text": "Coils in customised pitch profiles and wall thicknesses." }
+      ]
+    },
+    "products": {
+      "code": "03", "label": "Products", "title": "Tubes, coils and connecting parts",
+      "intro": "Corrugated tubes, coils and connecting parts in 304, 304L, 316L and 321 stainless steel.",
+      "items": [
+        { "code": "01 / Heat exchanger tubes", "name": "Corrugated tube heat exchangers", "text": "Ten nominal sizes from DN 12 to DN 100, wall thickness 0.15–0.50 mm.", "image": "/images/product-heat-exchanger.jpg", "tags": [["Size","DN 12–100"],["Grade","304–321"],["Pressure","≤ 21 bar"]], "href": "/product#tubes" },
+        { "code": "02 / Coils", "name": "Coils for heat pumps & solar", "text": "Customised pitch profiles and wall thicknesses.", "image": "/images/product-coil.jpg", "tags": [["Pitch","Custom"],["Wall","Custom"],["Test","100% He"]], "href": "/product#coils" },
+        { "code": "03 / Custom fittings", "name": "Connecting parts", "text": "Made to your drawing and specification on high-precision machinery.", "image": "/images/product-fittings.jpg", "tags": [["Made","To drawing"],["Fit","Tube-matched"],["Grade","Stainless"]], "href": "/product#fittings" }
+      ]
+    },
+    "specPreview": {
+      "code": "04", "label": "Specification", "title": "Standard sizes",
+      "intro": "Selected sizes. The full table lists all ten nominal sizes.",
+      "rowsDN": ["12", "25", "50", "100"],
+      "link": { "label": "Full specification table", "href": "/product#specifications" }
+    },
+    "process": {
+      "code": "05", "label": "Process", "title": "How an order works",
+      "intro": "Send a drawing or specification and we will prepare a quotation.",
+      "steps": [
+        { "number": "05.1", "title": "Enquiry", "text": "Drawing or specification with size, grade and quantity." },
+        { "number": "05.2", "title": "Technical review", "text": "We check the grade, dimensions and application." },
+        { "number": "05.3", "title": "Quotation", "text": "An itemised quotation for your review." },
+        { "number": "05.4", "title": "Manufacture", "text": "Production on automated machinery." },
+        { "number": "05.5", "title": "Test & delivery", "text": "Helium leak test on every tube, then delivery or storage in our UK warehouse." }
+      ]
+    },
+    "quality": {
+      "code": "06", "label": "Quality", "title": "Quality and certification",
+      "intro": "All corrugated tubes are 100% helium tested. Our management systems are certified to ISO 9001, 14001 and 45001.",
+      "image": "/images/photo-lab.jpg", "caption": "Fig. 2: Test laboratory · REF 06.1"
+    }
+  },
+
+  "products": {
+    "pageHeader": { "breadcrumb": "Home / Products", "title": "Heat exchangers based on corrugated tubes", "intro": "Corrugated tube heat exchangers in four stainless steel grades and ten nominal sizes." },
+    "tubes": { "id": "tubes", "code": "01", "label": "Heat exchanger tubes", "title": "Corrugated tube heat exchangers", "text": "For boiler and hot water cylinder production. Nominal sizes DN 12 to DN 100, wall thickness 0.15 to 0.50 mm.", "image": "/images/product-heat-exchanger.jpg", "caption": "Fig. 1.1: Corrugated tube heat exchanger · REF 01.1", "tags": [["Size","DN 12–100"],["Wall","0.15–0.50 mm"],["Grade","304 · 304L · 316L · 321"],["Pressure","≤ 21 bar"]] },
+    "specifications": {
+      "id": "specifications", "code": "02", "label": "Specification", "title": "Specifications",
+      "intro": "All sizes in 304, 304L, 316L and 321. Working pressure up to 21 bar.",
+      "columns": ["DN", "ID × OD (mm)", "Heat transfer area (m²/m)", "Wall thickness (mm)", "Material", "Working pressure"],
+      "rows": [
+        ["12", "12 × 16", "0.0614", "0.15 · 0.20 · 0.25 · 0.30"],
+        ["16", "16 × 20", "0.0752", "0.15 · 0.20 · 0.25 · 0.30"],
+        ["20", "20 × 25", "0.110", "0.15 · 0.20 · 0.25 · 0.30"],
+        ["25", "25 × 32", "0.125", "0.20 · 0.25 · 0.30"],
+        ["32", "33 × 40", "0.190", "0.20 · 0.25 · 0.30 · 0.35"],
+        ["40", "40 × 50", "0.238", "0.20 · 0.25 · 0.30 · 0.35 · 0.40"],
+        ["50", "50 × 60", "0.286", "0.20 · 0.25 · 0.30 · 0.35 · 0.40"],
+        ["65", "65 × 82", "0.570", "0.30 · 0.35 · 0.40 · 0.50"],
+        ["80", "80 × 96", "0.600", "0.30 · 0.35 · 0.40 · 0.50"],
+        ["100", "100 × 122", "0.910", "0.30 · 0.35 · 0.40 · 0.50"]
+      ],
+      "material": "304 · 304L · 316L · 321", "pressure": "≤ 21 bar",
+      "note": "Source: Flexcisst product data. Temperature range on request [[CLIENT TO CONFIRM]].",
+      "download": { "label": "Download catalogue (PDF, 4.3 MB)", "href": "/downloads/flexcisst-catalog.pdf" }
+    },
+    "coils": { "id": "coils", "code": "03", "label": "Coils", "title": "Coils for heat pumps and solar", "text": "Coils with custom pitch profiles and wall thickness for heat pump and solar applications.", "image": "/images/product-coil.jpg", "caption": "Fig. 3.1: Corrugated tube coil · REF 03.1", "tags": [["Pitch","Custom"],["Wall","Custom"],["Use","Heat pumps · Solar"]] },
+    "manufacturing": {
+      "code": "04", "label": "Manufacturing", "title": "Manufacturing and testing",
+      "intro": "Tubes and fittings are produced on automated machinery and leak tested with helium.",
+      "items": [
+        { "title": "Automated precision machinery", "text": "Custom sizes and grades on request.", "image": "/images/photo-welding.jpg" },
+        { "title": "100% helium-tested", "text": "Every corrugated tube is helium leak tested.", "image": "/images/photo-lab.jpg" },
+        { "title": "Stock and delivery", "text": "Large quantities delivered, or held in stock in the UK.", "image": "/images/photo-stock.jpg" }
+      ]
+    },
+    "fittings": { "id": "fittings", "code": "05", "label": "Connecting parts", "title": "Custom fittings, made to drawing", "text": ["Fittings are machined to the customer's drawing and specification.", "Threads, diameters and lengths are matched to the tube."], "image": "/images/product-fittings.jpg", "caption": "Fig. 5.1: Threaded connecting parts · REF 05.1", "tags": [["Made","To your drawing"],["Fit","Matched to tube"],["Standard","Strict QA"]] }
+  },
+
+  "advantages": {
+    "pageHeader": { "breadcrumb": "Home / Advantages", "title": "Flexcisst? And why?", "intro": "Why Flexcisst is the partner for individual requirements in boiler production." },
+    "items": [
+      { "code": "A.01", "title": "Technical expertise", "text": "Comprehensive knowledge and decades of experience in heat exchanger technology." },
+      { "code": "A.02", "title": "Technology openness", "text": "Different steel grades and customer-specific production are a matter of course." },
+      { "code": "A.03", "title": "100% customer focus", "text": "Our customers take centre stage. You are important to us, and we take time for you." },
+      { "code": "A.04", "title": "Focus on one product", "text": "We are not distracted by a multitude of products. Our expertise lies in corrugated tube-based heat exchangers." },
+      { "code": "A.05", "title": "High quality", "text": "Our products meet the highest quality standards and are carefully tested." },
+      { "code": "A.06", "title": "Customised logistics", "text": "We adapt our logistics chain to your needs. We deliver large quantities or hold stock for you." }
+    ],
+    "logistics": { "code": "A.06", "label": "Logistics", "title": "Stock and delivery", "text": "Our office is in London and our warehouse is in England. We can deliver large quantities or hold stock for call-off.", "image": "/images/photo-stock.jpg" }
+  },
+
+  "downloads": {
+    "pageHeader": { "breadcrumb": "Home / Downloads", "title": "Downloads", "intro": "Product catalogue and certificates." },
+    "documents": {
+      "code": "D", "label": "Product documentation", "title": "Datasheets and catalogues",
+      "items": [{ "code": "D-01", "title": "Catalogue: heat exchangers based on corrugated pipes", "text": "Product range, specifications and applications. English.", "type": "PDF", "size": "4.3 MB", "href": "/downloads/flexcisst-catalog.pdf", "source": "https://www.flexcisst.co.uk/fileadmin/content/pdf/flexcisst-catalog.pdf", "action": "Download" }]
+    },
+    "certificates": {
+      "code": "C", "label": "Certificates", "title": "Management system certificates",
+      "items": [
+        { "code": "C-01", "title": "ISO 9001:2015, quality management", "text": "Certificate PDF [[CLIENT TO CONFIRM: supply file]]", "type": "PDF", "size": "On request", "action": "Request", "href": "/contact#quote" },
+        { "code": "C-02", "title": "ISO 14001, environmental management", "text": "Certificate PDF [[CLIENT TO CONFIRM: supply file]]", "type": "PDF", "size": "On request", "action": "Request", "href": "/contact#quote" },
+        { "code": "C-03", "title": "ISO 45001, occupational health and safety", "text": "Certificate PDF [[CLIENT TO CONFIRM: supply file]]", "type": "PDF", "size": "On request", "action": "Request", "href": "/contact#quote" }
+      ]
+    }
+  },
+
+  "contact": {
+    "pageHeader": { "breadcrumb": "Home / Contact", "title": "Contact & request a quote", "intro": "Send a drawing or specification and our UK sales team will reply with a quotation." },
+    "blocks": [
+      { "label": "UK headquarters", "lines": ["Flexcisst Technology UK Ltd", "54 Welbeck Street", "London W1G 9XS"] },
+      { "label": "Sales", "lines": ["Jonathan Chew, Sales Director UK", "+44 7777 137231", "jon.chew@flexcisst.co.uk"], "tel": "+447777137231", "email": "jon.chew@flexcisst.co.uk" },
+      { "label": "Production site", "lines": ["Ningbo HongWu Pipe Industry Co., Ltd.", "1999 Xiaolin Road, Cixi", "Zhejiang 315321, China"] }
+    ],
+    "form": {
+      "id": "quote", "code": "Q", "label": "Request a quote", "title": "Your requirement",
+      "fields": [
+        { "name": "name", "label": "Name", "placeholder": "Full name", "type": "text", "required": true },
+        { "name": "company", "label": "Company", "placeholder": "Company name", "type": "text", "required": true },
+        { "name": "email", "label": "Email", "placeholder": "name@company.com", "type": "email", "required": true },
+        { "name": "phone", "label": "Phone", "placeholder": "+44 …", "type": "tel" },
+        { "name": "application", "label": "Application", "type": "select", "options": ["Boiler production", "Hot water cylinders", "Heat pumps & solar", "Custom fittings", "Other"] },
+        { "name": "requirement", "label": "Requirement: tube size (DN), grade, wall thickness, quantity, delivery", "placeholder": "Tube size, material, quantity, delivery…", "type": "textarea", "required": true },
+        { "name": "drawing", "label": "Drawing (optional)", "placeholder": "PDF, DWG or STEP. Browse files", "type": "file", "accept": ".pdf,.dwg,.step,.stp" }
+      ],
+      "privacy": "We use your details only to answer this request. See Data protection.",
+      "submit": "Send request",
+      "success": { "title": "Your request has been sent", "text": "Jonathan Chew, Sales Director UK, will reply by email. For urgent requests call +44 7777 137231." }
+    }
+  }
+}

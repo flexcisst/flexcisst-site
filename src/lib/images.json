@@ -1,0 +1,65 @@
+{
+  "/images/hero-section.jpg": {
+    "name": "hero-section",
+    "width": 719,
+    "height": 594,
+    "widths": [
+      480,
+      719
+    ]
+  },
+  "/images/photo-lab.jpg": {
+    "name": "photo-lab",
+    "width": 820,
+    "height": 600,
+    "widths": [
+      480,
+      820
+    ]
+  },
+  "/images/photo-stock.jpg": {
+    "name": "photo-stock",
+    "width": 820,
+    "height": 600,
+    "widths": [
+      480,
+      820
+    ]
+  },
+  "/images/photo-welding.jpg": {
+    "name": "photo-welding",
+    "width": 820,
+    "height": 600,
+    "widths": [
+      480,
+      820
+    ]
+  },
+  "/images/product-coil.jpg": {
+    "name": "product-coil",
+    "width": 600,
+    "height": 450,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "/images/product-fittings.jpg": {
+    "name": "product-fittings",
+    "width": 600,
+    "height": 450,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "/images/product-heat-exchanger.jpg": {
+    "name": "product-heat-exchanger",
+    "width": 600,
+    "height": 450,
+    "widths": [
+      480,
+      600
+    ]
+  }
+}
