@@ -1,21 +1,31 @@
 import type { Metadata } from "next";
 import { SITE_URL, meta } from "./content";
 
+export const OG_IMAGE = {
+  url: `${SITE_URL}/og-image.jpg`,
+  width: 1200,
+  height: 630,
+  type: "image/jpeg",
+  alt: "Flexcisst: corrugated tube heat exchangers for boilers and cylinders",
+};
+
 export function pageMeta(path: string, title: string, description: string): Metadata {
   const url = `${SITE_URL}${path}`;
+  const shareTitle = `${title} | Flexcisst`;
   return {
     title,
     description,
     alternates: { canonical: url },
     openGraph: {
-      title,
+      title: shareTitle,
       description,
       url,
       siteName: "Flexcisst",
       type: "website",
       locale: "en_GB",
-      images: [{ url: "/images/hero-section-719.jpg", width: 719, height: 594, alt: "Corrugated tube heat exchanger" }],
+      images: [OG_IMAGE],
     },
+    twitter: { card: "summary_large_image", title: shareTitle, description, images: [OG_IMAGE.url] },
   };
 }
 
@@ -25,6 +35,7 @@ export const organizationLd = {
   name: meta.company,
   url: SITE_URL,
   logo: `${SITE_URL}/brand/logo-on-light.png`,
+  image: `${SITE_URL}/og-image.jpg`,
   address: {
     "@type": "PostalAddress",
     streetAddress: "54 Welbeck Street",

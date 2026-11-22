@@ -7,7 +7,7 @@ import { SITE_URL, asset } from "@/lib/content";
 import { organizationLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
+  metadataBase: new URL(`${SITE_URL}/`),
   title: { default: "Flexcisst | Heat exchanger tubes and fittings", template: "%s | Flexcisst" },
   description: "Stainless steel corrugated tube heat exchangers, coils and custom fittings for boiler and hot water cylinder manufacturers.",
   icons: { icon: asset("/favicon.svg") },

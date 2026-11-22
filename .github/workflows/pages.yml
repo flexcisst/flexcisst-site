@@ -30,6 +30,8 @@ jobs:
         env:
           # "/flexcisst-site" on github.io; empty once a custom domain is set
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          # Absolute URL for share previews (WhatsApp, LinkedIn), canonical links and sitemap
+          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.base_url }}
           NEXT_PUBLIC_FORM_ENDPOINT: ${{ vars.FORM_ENDPOINT }}
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3

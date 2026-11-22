@@ -7,7 +7,8 @@ export const meta = site.meta;
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const asset = (p: string) => `${BASE_PATH}${p}`;
 
-export const SITE_URL = "https://www.flexcisst.co.uk";
+/** Public URL of the site (set by the deploy workflow). Falls back to the production domain. */
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.flexcisst.co.uk").replace(/\/$/, "");
 
 /** Splits "[[CLIENT TO CONFIRM]]" markers so they can be highlighted. */
 export const PLACEHOLDER = /(\[\[CLIENT TO CONFIRM[^\]]*\]\])/;
