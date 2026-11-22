@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { content, meta } from "@/lib/content";
+import { asset, content, meta } from "@/lib/content";
 import { pageMeta } from "@/lib/seo";
 import { Button, Caption, Pic, SectionCode, SectionHead, SpecTag } from "@/components/ui";
 import { SpecTable } from "@/components/SpecTable";
@@ -102,7 +102,7 @@ export default function Home() {
           <ul className="flex items-center gap-8">
             {meta.certifications.map((c) => (
               <li key={c.title}>
-                <img src={c.image} alt={c.title} width={60} height={56} className="h-11 w-auto grayscale" loading="lazy" />
+                <img src={asset(c.image)} alt={c.title} width={60} height={56} className="h-11 w-auto grayscale" loading="lazy" />
               </li>
             ))}
           </ul>
@@ -214,7 +214,7 @@ export default function Home() {
             <ul className="reveal border-t border-line">
               {meta.certifications.map((c) => (
                 <li key={c.title} className="flex items-center gap-6 border-b border-line py-6">
-                  <img src={c.image} alt="" width={60} height={56} className="h-14 w-auto grayscale" loading="lazy" />
+                  <img src={asset(c.image)} alt="" width={60} height={56} className="h-14 w-auto grayscale" loading="lazy" />
                   <div>
                     <p className="font-heading text-h3 font-semibold">{c.title}</p>
                     <p className="text-small text-steel">{c.scope}</p>

@@ -3,14 +3,14 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Reveal } from "@/components/Reveal";
 import { Footer } from "@/components/Layout";
-import { SITE_URL } from "@/lib/content";
+import { SITE_URL, asset } from "@/lib/content";
 import { organizationLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: "Flexcisst | Heat exchanger tubes and fittings", template: "%s | Flexcisst" },
   description: "Stainless steel corrugated tube heat exchangers, coils and custom fittings for boiler and hot water cylinder manufacturers.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: asset("/favicon.svg") },
 };
 
 export const viewport: Viewport = { themeColor: "#FFFFFF" };

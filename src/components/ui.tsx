@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import type { ReactNode } from "react";
 import manifest from "@/lib/images.json";
-import { PLACEHOLDER, isExternal } from "@/lib/content";
+import { BASE_PATH, PLACEHOLDER, isExternal } from "@/lib/content";
 
 /* ---------- Text with [[CLIENT TO CONFIRM]] markers kept visible ---------- */
 export function Txt({ children }: { children: string }) {
@@ -127,14 +127,14 @@ export function Pic({
 }) {
   const img = (manifest as Record<string, Img>)[src];
   if (!img) return <div className={`drawing-grid ${className}`} role="img" aria-label={alt} />;
-  const set = (ext: string) => img.widths.map((w) => `/images/${img.name}-${w}.${ext} ${w}w`).join(", ");
+  const set = (ext: string) => img.widths.map((w) => `${BASE_PATH}/images/${img.name}-${w}.${ext} ${w}w`).join(", ");
   const largest = img.widths[img.widths.length - 1];
   return (
     <picture>
       <source type="image/avif" srcSet={set("avif")} sizes={sizes} />
       <source type="image/webp" srcSet={set("webp")} sizes={sizes} />
       <img
-        src={`/images/${img.name}-${largest}.jpg`}
+        src={`${BASE_PATH}/images/${img.name}-${largest}.jpg`}
         srcSet={set("jpg")}
         sizes={sizes}
         alt={alt}

@@ -7,7 +7,8 @@ The redesigned Flexcisst website, built from the Figma file
 - **Next.js 15** (App Router, React, TypeScript), exported as a static site to `out/`
 - **Tailwind CSS 3** using the Figma tokens (`design/tokens.css`, `tailwind.config.ts`)
 - **Barlow / Barlow Semi Condensed**, self-hosted via Fontsource
-- **Hosting:** Vercel (`vercel.json` holds redirects and cache headers). Any static host also works.
+- **Hosting:** GitHub Pages, deployed by `.github/workflows/pages.yml` on every push to `main`.
+  (`vercel.json` is kept in case the site later moves to Vercel Pro.)
 
 All copy lives in `content/site.json`. Components contain no hard-coded copy, so the
 content can later move into Payload CMS without changing the pages.
@@ -30,20 +31,22 @@ The current exports are 1× renders. For sharper images on Retina screens, expor
 2× from Figma (File › Export) into `raw/images/` and rerun `npm run images`.
 
 ## Quote form
-Set `NEXT_PUBLIC_FORM_ENDPOINT` in Vercel (Project › Settings › Environment Variables),
-for example a Formspree form URL. Until it is set, the form shows a message asking
-people to use the email address instead. The form can later post to HubSpot.
+Add a repository variable `FORM_ENDPOINT` (Settings › Secrets and variables › Actions ›
+Variables), for example a Formspree form URL, then rerun the Pages workflow. Until it is
+set, the form asks people to use the email address instead. It can later post to HubSpot.
 
-## Deploy on Vercel
-1. Vercel › Add New › Project › import `flexcisst/flexcisst-site`.
-2. Framework preset: Next.js. No other settings needed (the build outputs `out/`).
-3. Add the `NEXT_PUBLIC_FORM_ENDPOINT` variable, then deploy.
-4. When ready, add the domain `www.flexcisst.co.uk` and update DNS.
+## Hosting on GitHub Pages
+- Live at `https://flexcisst.github.io/flexcisst-site/` until a custom domain is added.
+- Every push to `main` builds and deploys automatically (Actions tab shows progress).
+- **Custom domain:** Settings › Pages › Custom domain › `www.flexcisst.co.uk`, then add
+  a `CNAME` record for `www` pointing to `flexcisst.github.io` at the DNS provider and
+  tick *Enforce HTTPS*. The workflow then builds without the `/flexcisst-site` prefix.
+- GitHub Pages can't do server redirects, so the old catalogue URL
+  (`/fileadmin/content/pdf/flexcisst-catalog.pdf`) won't redirect automatically.
 
 ## Still to do
 - **Catalogue PDF:** add `public/downloads/flexcisst-catalog.pdf` (from
   https://www.flexcisst.co.uk/fileadmin/content/pdf/flexcisst-catalog.pdf).
-  The old URL already redirects to the new path in `vercel.json`.
 - **Imprint and data protection text:** pages exist with a placeholder.
 
 ## [[CLIENT TO CONFIRM]] (visible on the site until resolved)
@@ -56,6 +59,6 @@ people to use the email address instead. The form can later post to HubSpot.
 - Warehouse location in England
 - Clean product photos without the "X" watermark
 - Languages (old site mixes German UI labels)
-- Form endpoint (`NEXT_PUBLIC_FORM_ENDPOINT`)
+- Form endpoint (`FORM_ENDPOINT` repository variable)
 
 Design package docs (audit, facts, asset inventory, redirects) are in `docs/`.

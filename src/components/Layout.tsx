@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { meta } from "@/lib/content";
+import { asset, meta } from "@/lib/content";
 import { A, Button, ExtIcon, Txt } from "./ui";
 import { LinkedInIcon } from "./LinkedInIcon";
 
@@ -36,7 +36,7 @@ export function Footer() {
         {/* Title block */}
         <div className="grid gap-px border border-white/15 bg-white/15 sm:grid-cols-2 xl:grid-cols-5 [&>*]:bg-[#1A1E22]">
           <Cell label="Company">
-            <img src="/brand/logo-on-dark.png" alt="Flexcisst" width={689} height={126} className="h-6 w-auto" loading="lazy" />
+            <img src={asset("/brand/logo-on-dark.png")} alt="Flexcisst" width={689} height={126} className="h-6 w-auto" loading="lazy" />
             <p className="mt-3 text-steel-light">{meta.tagline}</p>
           </Cell>
           <Cell label="UK headquarters">
