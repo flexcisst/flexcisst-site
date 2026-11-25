@@ -37,7 +37,7 @@ export function Header() {
       <div className="border-b border-line">
         <div className="container-x flex h-16 items-center justify-between xl:h-20">
           <Link href="/" aria-label="Flexcisst home" className="shrink-0">
-            <img src={asset("/brand/logo-on-light.png")} alt="Flexcisst" width={689} height={126} className="h-6 w-auto xl:h-7" />
+            <img src={asset("/brand/logo-on-light.png")} alt="Flexcisst" width={638} height={119} className="h-8 w-auto xl:h-9" />
           </Link>
 
           <nav aria-label="Main" className="hidden xl:block">
@@ -83,7 +83,7 @@ export function Header() {
       {open && (
         <div id="mobile-nav" role="dialog" aria-modal="true" aria-label="Menu" className="fixed inset-0 z-50 flex flex-col bg-ink-2 text-paper xl:hidden">
           <div className="container-x flex h-16 items-center justify-between border-b border-white/15">
-            <img src={asset("/brand/logo-on-dark.png")} alt="Flexcisst" width={689} height={126} className="h-6 w-auto" />
+            <img src={asset("/brand/logo-on-dark.png")} alt="Flexcisst" width={638} height={119} className="h-8 w-auto" />
             <button type="button" onClick={() => setOpen(false)} className="inline-flex items-center gap-2 px-2 py-2 text-[14px] font-medium" autoFocus>
               Close <X aria-hidden size={18} className="text-accent" />
             </button>
